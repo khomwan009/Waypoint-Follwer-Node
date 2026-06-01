@@ -1,0 +1,21 @@
+ntrip_client:
+  ros__parameters:
+    # NTRIP Server Configuration
+    host: 110.78.0.54
+    port: 2116
+    mountpoint: VRS_RTCM32
+    username: "1509966326760"
+    password: "KR72"
+
+    # NMEA and Update Rate Configuration
+    nmea_input_rate: 4.0
+    update_rate: 1.0
+
+    # Connection Configuration
+    reconnect_delay: 5.0
+    max_reconnect_attempts: 0   # ✅ ต้องเยื้องเท่ากัน
+
+    # Debug Configuration
+    send_default_gga: True
+    debug: True
+    output_rtcm_details: True

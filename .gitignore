@@ -1,0 +1,6 @@
+build/
+install/
+log/
+csv_logs/
+.codex/
+src/microros_ws00000/
