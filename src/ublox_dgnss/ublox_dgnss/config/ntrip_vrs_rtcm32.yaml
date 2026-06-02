@@ -1,0 +1,10 @@
+ntrip_client:
+  ros__parameters:
+    use_https: false
+    host: "110.78.0.54"
+    port: 2116
+    mountpoint: "VRS_RTCM32"
+    username: "1509966326760"
+    password: "KR72"
+    log_level: "DEBUG"
+    maxage_conn: 30
